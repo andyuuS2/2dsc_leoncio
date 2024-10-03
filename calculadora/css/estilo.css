@@ -1,10 +1,26 @@
-*{
+* {
     font-family: arial;
 }
 
 body {
-    width:100%;
+    width: 100%;
     display: flex;
     justify-content: center;
-    background-color: rgb(107, 157, 140);
+    background-color: #ffbefe;
+}
+.app {
+    background-color: #b4b8e7;
+    padding: 16px;
+    border-radius: 10px;    
+}
+input {
+    margin: 8px 0;
+    padding: 8px;
+    outline: none;
+}
+#btn-calcular{
+    background-color: #9397c1;
+    color: #ffffff;
+    padding: 8px;
+    border-radius: 40px;
 }
